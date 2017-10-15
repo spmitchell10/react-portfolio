@@ -505,7 +505,7 @@ a {
 
 .portfolio-title {
   color: #fff;
-  padding: 100px 0;
+  padding: 30px 0;
 }
 
 .work-title {
@@ -630,7 +630,7 @@ a.btn-mod:focus {
 
 @media (min-width: 576px) {
   .portfolio-title {
-    padding: 100px 60px;
+    padding: 60px 60px;
   }
   .skill-list {
     margin: 2em 0 0 0;
