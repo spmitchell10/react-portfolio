@@ -472,7 +472,7 @@ a {
 ===============*/
 
 .parallax {
-  height: 500px;
+ 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -619,6 +619,9 @@ a.btn-mod:focus {
   }
   .parallax {
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .page-section {
     background-attachment: fixed;

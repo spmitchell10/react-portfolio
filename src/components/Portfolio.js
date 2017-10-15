@@ -18,7 +18,7 @@ class Portfolio extends Component {
 		            height: "100%",
 		            minHeight: "100vh",
 		            width: "100%",
-		            backgroundSize: "135%",
+		            backgroundSize: "70%",
 		            backgroundPosition: "center",
 		            backgroundColor: "#333",
 		            display: "flex",
@@ -91,7 +91,7 @@ class Portfolio extends Component {
 		            height: "100%",
 		            minHeight: "100vh",
 		            width: "100%",
-		            backgroundSize: "135%",
+		            backgroundSize: "70%",
 		            backgroundPosition: "center",
 		            backgroundColor: "#333",
 		            display: "flex",
@@ -125,7 +125,7 @@ class Portfolio extends Component {
 		            }}
 		          >
 		            <h3 className="work-title" style={{ color: "#fff" }}>
-		              TechAnchor
+		              Anchored Thoughts
 		            </h3>
 		            <div className="work-descr" style={{ color: "#fff" }}>
 		              Built with JavaScript, Angular, MongoDB, and Bootstrap.
@@ -160,7 +160,7 @@ class Portfolio extends Component {
 		            height: "100%",
 		            minHeight: "100vh",
 		            width: "100%",
-		            backgroundSize: "135%",
+		            backgroundSize: "70%",
 		            backgroundPosition: "center",
 		            backgroundColor: "#333",
 		            display: "flex",
