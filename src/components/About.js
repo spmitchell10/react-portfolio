@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Scroll from 'react-scroll';
+var Link = Scroll.Link;
 
-class Aboout extends Component {
+
+class About extends Component {
 	render(){
 		return (
 			<section
@@ -21,11 +23,14 @@ class Aboout extends Component {
               <div className="section-text mb-50 mb-xs-30">
                 Hi there, my name is Stephen Mitchell! I'm a Front-End Web Developer and a graduate of The Iron Yard Cincinnati. Essentially, I help people tell computers to do things. I'm a very driven, family-oriented person, who loves oppurtunites to learn and grow.
                 <br />
-                <br />I have educational knowledge in Web Design and Business Management. I really enjoy UI/UX, find Back-End coding to be lots of fun, but mostly I specialize in Front-End Development.
                 <br />
-                <br />When I'm not coding, you'll find me hanging out with my wife, Jackie, and my son, Soren. I also love to read, workout, bike, hike, camp...really anything outdoors.
+                I have educational knowledge in Web Design and Business Management. I really enjoy UI/UX, find Back-End coding to be lots of fun, but mostly I specialize in Front-End Development.
                 <br />
-                <br />Here are some of the coding skills I currenlty use!
+                <br />
+                When I'm not coding, you'll find me hanging out with my wife, Jackie, and my son, Soren. I also love to read, workout, bike, hike, camp...really anything outdoors.
+                <br />
+                <br />
+                Here are some of the coding skills I currenlty use!
 
               </div>
 

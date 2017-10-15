@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { About, Contact, Experience, Footer, Header, Layout, NavBar, Portfolio } from "../components";
+import { About, NavBar, Home } from "../components";
 
 class Layout extends Component {
 	componentDidMount() {
@@ -14,13 +14,9 @@ class Layout extends Component {
 	render(){
 		return (
 			<div className="page" id="top">
-				<About />
-				<Contact />
-				<Experience />
-				<Footer />
-				<Header />
 				<NavBar />
-				<Portfolio />
+				<Home />
+				<About />
 			</div>
 		);
 	}
