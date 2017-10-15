@@ -11,11 +11,10 @@ class Home extends Component {
 		        id="home"
 		        style={{ backgroundImage: `url(${mainIMG})`, minHeight: "100vh" }}
       		>
-      			
-      			
 
-
-      			<section className="scrollArrow">
+          
+      			
+      			<section className="scrollArrowHome">
                       <Link
                         to="skills"
                         activeClass="activeScroll"
@@ -26,7 +25,7 @@ class Home extends Component {
                       >
                         <span className="fa fa-angledown" />
                       </Link>
-                    </section>
+                </section>
       		
 
       		</section>

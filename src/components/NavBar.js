@@ -56,7 +56,7 @@ class NavBar extends Component {
   				className="navbar-logo"
   				style={{ display: "flex", alignItems: "center", margin: "0 3rem"}}
   			>
-  				<h1 className="navLogo">S.<span className="NavLogoM">M.</span></h1>
+  				<h1 className="navLogo blink_s">S.<span className="NavLogoM blink_me">M.</span></h1>
   			</span>
   			<div
             className="full-wrapper relative clearfix"

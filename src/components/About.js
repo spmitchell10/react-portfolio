@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Scroll from 'react-scroll';
+import ReactTooltip from 'react-tooltip';
 var Link = Scroll.Link;
 
 
@@ -15,7 +16,7 @@ class About extends Component {
           <div className="row">
             <div className="col-sm-3">
               <h2 className="section-title font-alt align-left mt-0 mb-70 mb-sm-40">
-                Skills
+                Skills/About
               </h2>
             </div>
 
@@ -35,21 +36,66 @@ class About extends Component {
               </div>
 
               <div className="row skill-list">
-                <i class="devicon-html5-plain-wordmark" />
-	            <i className="devicon-css3-plain-wordmark" />
-	            <i className="devicon-sass-original" />
-	            <i className="devicon-javascript-plain" />
-	            <i className="devicon-angularjs-plain" />
-	            <i className="devicon-jquery-plain-wordmark" />
-	            <i className="devicon-react-original-wordmark" />
-	            <i className="devicon-nodejs-plain" />
-	            <i className="devicon-amazonwebservices-plain-wordmark" />
-	            <i className="devicon-mongodb-plain-wordmark" />
-	            <i className="devicon-bootstrap-plain-wordmark" />
-	            <i className="devicon-gulp-plain" />
-	            <i className="devicon-github-plain-wordmark" />
-	            <i className="devicon-git-plain-wordmark" />
-	            <i className="devicon-heroku-original-wordmark" />
+                <i data-tip data-for="html5" class="devicon-html5-plain-wordmark devicon" />
+                  <ReactTooltip id="html5" type="dark" place="bottom">
+                    <span>HTML5</span>
+                  </ReactTooltip>
+  	            <i data-tip data-for="CSS3" className="devicon-css3-plain-wordmark devicon" />
+                  <ReactTooltip id="CSS3" type="dark" place="bottom">
+                    <span>CSS3</span>
+                  </ReactTooltip>
+  	            <i data-tip data-for="SASS" className="devicon-sass-original devicon" />
+                  <ReactTooltip id="SASS" type="dark" place="bottom">
+                    <span>SASS</span>
+                  </ReactTooltip>
+  	            <i data-tip data-for="JavaScript" className="devicon-javascript-plain devicon" />
+                  <ReactTooltip id="JavaScript" type="dark" place="bottom">
+                      <span>JavaScript</span>
+                  </ReactTooltip>
+                <i data-tip data-for="React" className="devicon-react-original-wordmark devicon" />
+                  <ReactTooltip id="React" type="dark" place="bottom">
+                    <span>React</span>
+                  </ReactTooltip>
+  	            <i data-tip data-for="Angular" className="devicon-angularjs-plain devicon" />
+                  <ReactTooltip id="Angular" type="dark" place="bottom">
+                    <span>Angular</span>
+                  </ReactTooltip>
+  	            <i data-tip data-for="jQuery" className="devicon-jquery-plain-wordmark devicon" />
+                  <ReactTooltip id="jQuery" type="dark" place="bottom">
+                    <span>jQuery</span>
+                  </ReactTooltip>
+  	            <i data-tip data-for="Node" className="devicon-nodejs-plain devicon" />
+                  <ReactTooltip id="Node" type="dark" place="bottom">
+                    <span>Node</span>
+                  </ReactTooltip>
+  	            <i data-tip data-for="AWS" className="devicon-amazonwebservices-plain-wordmark devicon" />
+                  <ReactTooltip id="AWS" type="dark" place="bottom">
+                    <span>AWS</span>
+                  </ReactTooltip>
+  	            <i data-tip data-for="MongoDB" lassName="devicon-mongodb-plain-wordmark devicon" />
+                  <ReactTooltip id="MongoDB" type="dark" place="bottom">
+                    <span>MongoDB</span>
+                  </ReactTooltip>
+  	            <i data-tip data-for="Bootstrap" className="devicon-bootstrap-plain-wordmark devicon" />
+                  <ReactTooltip id="Bootstrap" type="dark" place="bottom">
+                    <span>Bootstrap</span>
+                  </ReactTooltip>
+  	            <i data-tip data-for="Gulp" className="devicon-gulp-plain devicon" />
+                  <ReactTooltip id="Gulp" type="dark" place="bottom">
+                    <span>Gulp</span>
+                  </ReactTooltip>
+  	            <i data-tip data-for="GitHub" className="devicon-github-plain-wordmark devicon" />
+                  <ReactTooltip id="GitHub" type="dark" place="bottom">
+                    <span>GitHub</span>
+                  </ReactTooltip>
+  	            <i data-tip data-for="Git" className="devicon-git-plain-wordmark devicon" />
+                  <ReactTooltip id="Git" type="dark" place="bottom">
+                    <span>Git</span>
+                  </ReactTooltip>
+  	            <i data-tip data-for="Heroku" className="devicon-heroku-original-wordmark devicon" />
+                  <ReactTooltip id="Heroku" type="dark" place="bottom">
+                    <span>Heroku</span>
+                  </ReactTooltip>
               </div>
             </div>
           </div>
