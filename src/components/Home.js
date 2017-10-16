@@ -12,8 +12,6 @@ class Home extends Component {
 		        style={{ backgroundImage: `url(${mainIMG})`, minHeight: "100vh" }}
       		>
 
-          
-      			
       			<section className="scrollArrowHome">
                       <Link
                         to="skills"
@@ -26,8 +24,7 @@ class Home extends Component {
                         <span className="fa fa-angledown" />
                       </Link>
                 </section>
-      		
-
+  
       		</section>
 			)
 	}
