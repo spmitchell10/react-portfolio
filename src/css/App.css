@@ -702,6 +702,19 @@ a.btn-mod:focus {
   }
 }
 
+@media (max-width: 576px){
+  .footer{
+    font-size: 9px;
+  }
+
+  .white{
+    font-size: 35px;
+    margin-top: 35px;
+    margin-left: 40px;
+  }
+
+}
+
 @media (min-width: 576px) {
   .portfolio-title {
     padding: 60px 60px;
@@ -716,4 +729,5 @@ a.btn-mod:focus {
   .work-descr {
     font-size: 1.2em;
   }
+
 }
