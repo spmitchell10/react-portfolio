@@ -20,7 +20,7 @@ class Portfolio extends Component {
 		            width: "100%",
 		            backgroundSize: "70%",
 		            backgroundPosition: "center",
-		            backgroundColor: "#333",
+		            backgroundColor: "#F26C59",
 		            display: "flex",
 		            justifyContent: "flex-end",
 		            alignItems: "center"
@@ -34,12 +34,13 @@ class Portfolio extends Component {
 		              display: "flex",
 		              justifyContent: "flex-start",
 		              alignItems: "flex-start",
-		              flexDirection: "column"
+		              flexDirection: "column",
 		            }}
 		          >
-		          <h2 className="section-title portfolio-title">
+		          <h2 className="section-title portfolio-title header-underscore">
 		              Portfolio
 		            </h2>
+		            
 		          </div>
 		          <div
 		            className="work-intro"
@@ -53,8 +54,6 @@ class Portfolio extends Component {
 		              flexDirection: "column"
 		            }}
 		          >
-
-
 		            <h3 className="work-title" style={{ color: "#fff" }}>
 		              JTFitness
 		            </h3>
@@ -93,25 +92,13 @@ class Portfolio extends Component {
 		            width: "100%",
 		            backgroundSize: "70%",
 		            backgroundPosition: "center",
-		            backgroundColor: "#333",
+		            backgroundColor: "#1B839D",
 		            display: "flex",
 		            justifyContent: "flex-end",
 		            alignItems: "center"
 		          }}
 		        >
-		          <div
-		            className="work-intro"
-		            style={{
-		              width: "50%",
-		              minHeight: "100vh",
-		              display: "flex",
-		              justifyContent: "flex-start",
-		              alignItems: "flex-start",
-		              flexDirection: "column"
-		            }}
-		          >
-		            
-		          </div>
+		          
 		          <div
 		            className="work-intro"
 		            style={{
@@ -149,6 +136,19 @@ class Portfolio extends Component {
 		              </a>
 		            </div>
 		          </div>
+		          <div
+		            className="work-intro"
+		            style={{
+		              width: "50%",
+		              minHeight: "100vh",
+		              display: "flex",
+		              justifyContent: "flex-start",
+		              alignItems: "flex-start",
+		              flexDirection: "column"
+		            }}
+		          >
+		            
+		          </div>
 		        </div>
 
 		        <div
@@ -162,7 +162,7 @@ class Portfolio extends Component {
 		            width: "100%",
 		            backgroundSize: "70%",
 		            backgroundPosition: "center",
-		            backgroundColor: "#333",
+		            backgroundColor: "#693166",
 		            display: "flex",
 		            justifyContent: "flex-end",
 		            alignItems: "center"
@@ -179,8 +179,7 @@ class Portfolio extends Component {
 		              flexDirection: "column"
 		            }}
 		          >
-		            
-		          </div>
+		           </div>
 		          <div
 		            className="work-intro"
 		            style={{
