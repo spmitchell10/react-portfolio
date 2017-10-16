@@ -118,16 +118,9 @@ class Portfolio extends Component {
 		              Built with JavaScript, Angular, MongoDB, and Bootstrap.
 		            </div>
 		            <div className="workButtons">
+		              
 		              <a
-		                href="http://back-to-basics.surge.sh/"
-		                target="_blank"
-		                rel="noopener noreferrer"
-		                className="btn btn-mod btn-medium"
-		              >
-		                Live
-		              </a>
-		              <a
-		                href="https://github.com/spmitchell10/Week-4---Tuesday"
+		                href="https://github.com/spmitchell10/Week-9---Angular-Blog"
 		                target="_blank"
 		                rel="noopener noreferrer"
 		                className="btn btn-mod btn-medium"
@@ -199,14 +192,7 @@ class Portfolio extends Component {
 		              Built with JavaScript, jQuery, and Bootstrap.
 		            </div>
 		            <div className="workButtons">
-		              <a
-		                href="http://back-to-basics.surge.sh/"
-		                target="_blank"
-		                rel="noopener noreferrer"
-		                className="btn btn-mod btn-medium"
-		              >
-		                Live
-		              </a>
+		              
 		              <a
 		                href="https://github.com/spmitchell10/Week-4---Tuesday"
 		                target="_blank"
