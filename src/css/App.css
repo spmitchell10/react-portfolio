@@ -387,6 +387,10 @@ a {
   z-index: 10000000;
 }
 
+.menu ul li {
+  margin-top: 10px;
+}
+
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: white;
