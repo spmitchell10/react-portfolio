@@ -53,10 +53,6 @@ class NavBar extends Component {
 	}
 
 	handleScroll = e => {
-    // let mobileNav = document.querySelector(".sidenav");
-    // if (mobileNav.style.display !== "none") {
-    //   mobileNav.style.display = "none";
-    // }
     const scrollTop =
       window.pageYOffset !== undefined
         ? window.pageYOffset
@@ -73,21 +69,12 @@ class NavBar extends Component {
     }
   };
 
-  // toggleNav = () => {
-  //   let nav = document.querySelector(".hamburgerMenu");
-  //   if (nav.style.display !== "flex") {
-  //     nav.style.display = "flex";
-  //   } else {
-  //     nav.style.display = "none";
-  //   }
-  // };
-
   render(){
   	return(
 
 
   		<Headroom>
-        <Menu right isOpen={ false }>
+                <Menu className="menu hidden-md hidden-lg" right isOpen={ false }>
                     <ul style={{ listStyle: "none" }}>
                       <li>
                         <Link to="home" spy={true} smooth={true} offset={0} duration={700} >
