@@ -12,7 +12,7 @@ class Footer extends Component {
 		        <div className="container">
 		          <div className="footer-text">
 		            <div className="footer-copy font-alt">
-		              &copy; SPMitchel Designs 2017.
+		              &copy; SPMitchell Designs 2017.
 		            </div>
 		          </div>
 		          <div className="local-scroll">
