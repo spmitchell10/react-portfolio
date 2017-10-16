@@ -56,6 +56,21 @@ class Contact extends Component {
 
                   <hr />
 
+                  <div className="contact-item">
+                    <div className="ci-icon">
+                      <i className="fa fa-twitter" />
+                    </div>
+                    <div className="ci-title font-alt">Twitter</div>
+                    <div className="ci-text">
+                      {" "}
+                      <a href="https://twitter.com/spmitchell_">twitter.com/spmitchell_</a>
+                    </div>
+                  </div>
+
+                  <hr />
+
+                  
+
                 </div>
                 <div className="col-sm-5">
                   <div className="contact-item">
@@ -87,7 +102,11 @@ class Contact extends Component {
                       </a>
                     </div>
                   </div>
+
                   <hr />
+
+                  
+
                 </div>
                 
               </div>
