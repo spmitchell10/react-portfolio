@@ -32,7 +32,7 @@ class NavBar extends Component {
         backgroundColor: "transparent"
       });
     } else {
-      this.setState({ backgroundColor: "rgba(27, 27, 27, .7)" });
+      this.setState({ backgroundColor: "rgba(27, 27, 27, .8)" });
     }
   };
 
