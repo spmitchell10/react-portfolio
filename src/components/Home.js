@@ -7,7 +7,7 @@ class Home extends Component {
 	render() {
 		return(
 			<section
-		        className="page-section bg-dark"
+		        className="page-section bg-dark colorFade"
 		        id="home"
 		        style={{ backgroundImage: `url(${mainIMG})`, minHeight: "100vh" }}
       		>

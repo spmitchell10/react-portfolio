@@ -196,11 +196,11 @@ a {
 
 .navLogo{
   font-family: 'Lobster', cursive;
-  color: #777;
+  color: #EEE;
 }
 
 .NavLogoM{
-  color: red;
+  color: #48AA9E;
   font-family: 'Lobster', cursive;
 }
 
@@ -421,6 +421,7 @@ a {
 /*============
    Home Page
 ==============*/
+
 
 .page-section,
 .small-section {
