@@ -83,7 +83,7 @@ class NavBar extends Component {
                       </li>
                       <li>
                         <Link to="skills" spy={true} smooth={true} offset={0} duration={700} >
-                          Skills
+                          About
                         </Link>
                       </li>
                       <li>
@@ -136,7 +136,7 @@ class NavBar extends Component {
                     </li>
                     <li>
                       <Link to="skills" spy={true} smooth={true} offset={0} duration={700} >
-                        Skills
+                        About
                       </Link>
                     </li>
                     <li>

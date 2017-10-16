@@ -13,10 +13,10 @@ class About extends Component {
 		        style={{ minHeight: "100vh" }}
       		>
         <div className="container relative">
-          <div className="row">
+          <div className="row fontSizeAbout">
             <div className="col-sm-3">
-              <h2 className="section-title font-alt align-left mt-0 mb-70 mb-sm-40">
-                Skills/About
+              <h2 className="section-title ">
+                About
               </h2>
             </div>
 

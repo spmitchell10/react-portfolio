@@ -466,6 +466,8 @@ a {
   height: 0px !important;
 }
 
+
+
 /*=============
   Skills Page
 ===============*/
@@ -509,12 +511,23 @@ a {
 
 .section-title {
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 100%;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.5em;
   line-height: 1.4;
+}
+
+.section-text {
+  font-size: 100%;
+  font-weight: 300;
+  color: #777;
+  line-height: 1.7;
+  margin: 0 0.5em;
+}
+.section-text blockquote {
+  margin-top: -5px;
 }
 
 .portfolio-title {
@@ -689,7 +702,7 @@ a.btn-mod:focus {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
   .portfolio-title {
     padding: 60px 60px;
     float: right;

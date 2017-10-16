@@ -10,8 +10,8 @@ class Contact extends Component {
       >
         <div className="container relative">
           <div className="row">
-            <div className="col-sm-3">
-              <h2 className="section-title font-alt align-left mt-0">
+            <div className="col-sm-3" >
+              <h2 className="section-title">
                 Contact
               </h2>
             </div>
@@ -71,7 +71,7 @@ class Contact extends Component {
                   </div>
 
                   <hr />
-                  
+
                   <div className="contact-item">
                     <div className="ci-icon">
                       <i className="fa fa-linkedin" />
