@@ -511,7 +511,7 @@ a {
 
 .section-title {
   margin-bottom: 15px;
-  font-size: 100%;
+  font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
@@ -520,7 +520,7 @@ a {
 }
 
 .section-text {
-  font-size: 100%;
+  font-size: 15px;
   font-weight: 300;
   color: #777;
   line-height: 1.7;
@@ -702,7 +702,7 @@ a.btn-mod:focus {
   }
 }
 
-@media (min-width: 770px) {
+@media (min-width: 576px) {
   .portfolio-title {
     padding: 60px 60px;
     float: right;
