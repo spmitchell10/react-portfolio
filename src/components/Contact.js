@@ -53,7 +53,9 @@ class Contact extends Component {
                       </a>
                     </div>
                   </div>
+
                   <hr />
+
                 </div>
                 <div className="col-sm-5">
                   <div className="contact-item">
@@ -67,7 +69,9 @@ class Contact extends Component {
                       </a>
                     </div>
                   </div>
+
                   <hr />
+                  
                   <div className="contact-item">
                     <div className="ci-icon">
                       <i className="fa fa-linkedin" />

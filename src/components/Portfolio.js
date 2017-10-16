@@ -11,7 +11,7 @@ class Portfolio extends Component {
 		        
 		        <div
 		          id="portfolio"
-		          className="parallax"
+		          className="parallax shadow"
 		          style={{
 		            backgroundImage: `url(${jtFit})`,
 		            WebkitBackgroundImage: `url(${jtFit})`,

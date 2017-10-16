@@ -208,14 +208,14 @@ a {
   animation: blinker 2s linear infinite;
 
   -webkit-animation-name: blinker;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
 
-    -moz-animation-name: blinker;
-    -moz-animation-duration: 2s;
-    -moz-animation-timing-function: linear;
-    -moz-animation-iteration-count: infinite;
+  -moz-animation-name: blinker;
+  -moz-animation-duration: 2s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
 }
 
 @keyframes blinker {  
@@ -235,7 +235,7 @@ a {
   -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
 
-  z-index: 100000;
+  z-index: 0;
 
   -webkit-transition: height 0.27s cubic-bezier(0, 0, 0.58, 1);
   -moz-transition: height 0.27s cubic-bezier(0, 0, 0.58, 1);
@@ -376,7 +376,7 @@ a {
   transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
 }
 
-.sidenav {
+/*.sidenav {
   display: none;
   background: black;
 }
@@ -415,6 +415,167 @@ a {
   font-size: 36px;
   margin-left: 50px;
   margin-top: 0.3em;
+}*/
+
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 20px;
+  right: 40px;
+  top: 25px;
+  z-index: 10000000;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  height: 100%;
+}
+
+.bm-menu-wrap{
+  height: 100vh !important;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+$bar-width: 30px;
+$bar-height: 3px;
+$bar-spacing: 8px;
+
+.hamburgerMenu {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 27px;
+  margin-right: 60px;
+  width: $bar-width;
+  height: $bar-height + $bar-spacing*2;
+  cursor: pointer;
+}
+
+.bar, .bar:after, .bar:before {
+  width: $bar-width;
+  height: $bar-height;
+}
+
+.bar {
+  position: relative;
+  transform: translateY($bar-spacing);
+  background: white;
+  transition: all 0ms 200ms;
+  
+  &.animate {
+    background: rgba(255, 255, 255, 0); 
+
+  }
+}
+
+.bar:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: $bar-spacing;
+  background: white;
+  transition: bottom 200ms 200ms cubic-bezier(0.23, 1, 0.32, 1), transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: $bar-spacing;
+  background: white;
+  transition: top 200ms 200ms cubic-bezier(0.23, 1, 0.32, 1), transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar.animate:after {
+  top: 0;
+  transform: rotate(45deg);
+  transition: top 200ms cubic-bezier(0.23, 1, 0.32, 1), transform 200ms 200ms cubic-bezier(0.23, 1, 0.32, 1);;
+}
+
+.bar.animate:before {
+  bottom: 0;
+  transform: rotate(-45deg);
+  transition: bottom 200ms cubic-bezier(0.23, 1, 0.32, 1), transform 200ms 200ms cubic-bezier(0.23, 1, 0.32, 1);;
+}
+
+.hiddenMenu{
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #292F36;
+  background: rgba(0,0,0,0.8);
+  position: fixed;
+  z-index: 999;
+  
+  text-align: center;
+  h4{
+    font-size: 30px;
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+  h4:hover{
+        color: #4ECDC4;
+        transition: all .4s ease;
+  }
+  .socialMedia{
+    float: none;
+    font-size: 40px;
+    padding-top: 0;
+
+  }
+}
+.paddingTop{
+  padding-top: 80px;
+}
+
+.hiddenMenu{
+  transition: .3s ease-in-out;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+}
+
+.navMenuHidden{
+  transform: translateY(-115%) !important;
+}
+
+.navMenuVisible{
+  transform: translateY(0%);
 }
 
 
@@ -473,7 +634,6 @@ a {
 ===============*/
 
 .parallax {
- 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
