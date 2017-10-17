@@ -31,7 +31,7 @@ class About extends Component {
                 When I'm not coding, you'll find me hanging out with my wife, Jackie, and my son, Soren. I also love to read, workout, bike, hike, camp...really anything outdoors.
                 <br />
                 <br />
-                Here are some of the coding skills I currenlty use!
+                Here are some of the coding skills I currently use!
 
               </div>
 
