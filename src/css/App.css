@@ -131,7 +131,7 @@
 .scrollArrow a span {
   position: relative;
   top: 0;
-  left: 50%;
+  left: 47%;
   width: 24px;
   height: 24px;
   border-left: 1px solid #fff;
@@ -700,6 +700,7 @@ a.btn-mod:focus {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
   }
   .page-section {
     background-attachment: fixed;
@@ -709,6 +710,10 @@ a.btn-mod:focus {
 @media (max-width: 576px){
   .footer{
     font-size: 9px;
+  }
+
+  .skill-list {
+    margin: 2em 0 0 20px;
   }
 
   .white{
@@ -722,6 +727,10 @@ a.btn-mod:focus {
 @media (max-width: 992px){
   .section-title{
     font-size: 15px;;
+  }
+  .parallax{
+    -webkit-background-size: 85%;
+    background-size: 85%;
   }
   
   .skill-list{
