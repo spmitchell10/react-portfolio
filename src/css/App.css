@@ -719,6 +719,16 @@ a.btn-mod:focus {
 
 }
 
+@media (max-width: 992px){
+  .section-title{
+    font-size: 15px;;
+  }
+  
+  .skill-list{
+    text-align: center;
+  }
+}
+
 @media (min-width: 576px) {
   .portfolio-title {
     padding: 60px 60px;

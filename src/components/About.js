@@ -21,7 +21,7 @@ class About extends Component {
             </div>
 
             <div className="col-sm-9">
-              <div className="section-text mb-50 mb-xs-30">
+              <div className="section-text">
                 Hi there, my name is Stephen Mitchell! I'm a Front-End Web Developer and a graduate of The Iron Yard Cincinnati. Essentially, I help people tell computers to do things. I'm a very driven, family-oriented person, who loves oppurtunites to learn and grow.
                 <br />
                 <br />

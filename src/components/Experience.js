@@ -9,13 +9,13 @@ class Experience extends Component{
 			<section className="page-section" id="experience">
 		        <div className="container relative">
 		          <div className="row">
-		            <div className="col-sm-3">
-		              <h2 className="section-title font-alt align-left mt-0">
+		            <div className="col-md-3 col-sm-4 breakdown">
+		              <h2 className="section-title">
 		                Experience
 		              </h2>
 		            </div>
 		            <br />
-		            <div className="col-sm-9">
+		            <div className="col-md-9 col-sm-8">
 		              <div className="section-text">
 		                <div className="row">
 		                  <div className="col-md-2 black">May 17 &ndash; Oct 17</div>
