@@ -22,7 +22,7 @@ class About extends Component {
 
             <div className="col-sm-9">
               <div className="section-text">
-                Hi there, my name is Stephen Mitchell! I'm a Front-End Web Developer and a graduate of The Iron Yard Cincinnati. Essentially, I help people tell computers to do things. I'm a very driven, family-oriented person, who loves oppurtunites to learn and grow.
+                Hi there, my name is Stephen Mitchell! I'm a Front-End Web Developer and a graduate of The Iron Yard Cincinnati. Essentially, I help people tell computers to do things. I'm a very driven, family-oriented person, who loves opportunities to learn and grow.
                 <br />
                 <br />
                 I have educational knowledge in Web Design and Business Management. I really enjoy UI/UX, find Back-End coding to be lots of fun, but mostly I specialize in Front-End Development.
