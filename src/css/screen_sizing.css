@@ -1,0 +1,83 @@
+/*==============
+  Screen Sizing
+================*/
+
+@media (min-width: 992px) {
+    .fa-bars {
+      display: none;
+    }
+  
+    .bm-burger-button{
+      display:none;
+    }
+    .clearlist {
+      flex-direction: row;
+      top: 14px;
+      display: flex;
+    }
+    .inner-nav ul {
+      line-height: 1.3;
+    }
+    .inner-nav {
+      display: flex;
+    }
+    .parallax {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+    }
+    .page-section {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 576px){
+    .footer{
+      font-size: 9px;
+    }
+  
+    .skill-list {
+      margin: 2em 0 0 20px;
+    }
+  
+    .white{
+      font-size: 35px;
+      margin-top: 35px;
+      margin-left: 40px;
+    }
+  
+  }
+  
+  @media (max-width: 992px){
+    .section-title{
+      font-size: 15px;;
+    }
+    .parallax{
+      -webkit-background-size: 85%;
+      background-size: 85%;
+    }
+    
+    .skill-list{
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .portfolio-title {
+      padding: 60px 60px;
+      float: right;
+    }
+    .skill-list {
+      margin: 2em 0 0 0;
+    }
+    .work-title {
+      font-size: 2.5em;
+    }
+    .work-descr {
+      font-size: 1.2em;
+    }
+  
+  }
+  

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './css/App.css';
+import Styles from './css/App.css';
 import { Layout } from "./components";
 
 class App extends Component {

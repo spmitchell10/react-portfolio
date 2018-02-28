@@ -1,0 +1,33 @@
+/*============
+   Home Page
+==============*/
+
+
+.page-section,
+.small-section {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  padding: 140px 0;
+}
+
+.bg-dark{
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.headroom-wrapper {
+  height: 0px !important;
+}

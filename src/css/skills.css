@@ -1,0 +1,15 @@
+/*=============
+  Skills Page
+===============*/
+
+.devicon {
+    font-size: 5em !important;
+    margin: 0.2em;
+    color: rgba(0, 0, 0, 0.7);
+    transition: ease 0.3s;
+  }
+  
+  .devicon:hover {
+    transform: scale(1.2);
+    color: rgba(0, 0, 0, 0.8);
+  }
