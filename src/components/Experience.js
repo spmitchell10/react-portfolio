@@ -17,9 +17,23 @@ class Experience extends Component{
 		            <br />
 		            <div className="col-md-9 col-sm-8">
 		              <div className="section-text">
+									<div className="row">
+		                  <div className="col-md-3 black">Feb 18 &ndash; Present</div>
+		                  <div className="col-md-9">
+		                    <h4 className="mt-0">
+		                      Katie Bush Designs
+		                    </h4>
+		                    Custom Wordpress and Siteleaf/Liquid builds. Tech stack includes: PHP, JavaScript, SASS, Jekyll, Ruby, Liquid, AWS, 
+												Beanstalk, Git, FileZilla, and NGiNX.  
+												
+		                  </div>
+		                </div>
+
+										<hr />
+
 		                <div className="row">
-		                  <div className="col-md-2 black">May 17 &ndash; Oct 17</div>
-		                  <div className="col-md-10">
+		                  <div className="col-md-3 black">May 17 &ndash; Present</div>
+		                  <div className="col-md-9">
 		                    <h4 className="mt-0">
 		                      SPMitchell Designs
 		                    </h4>
@@ -32,8 +46,8 @@ class Experience extends Component{
 		                <hr />
 
 		                <div className="row">
-		                  <div className="col-md-2 black">Feb 17 &ndash; May 17 </div>
-		                  <div className="col-md-10">
+		                  <div className="col-md-3 black">Feb 17 &ndash; May 17 </div>
+		                  <div className="col-md-9">
 		                    <h4 className="mt-0">Front-End Web Engineering</h4>
 		                    With a passion for technology and learning, I recently completed a 12 week, 
 		                    full-time Front-End Engineering boot camp at The Iron Yard Cincinnati to enhance 
