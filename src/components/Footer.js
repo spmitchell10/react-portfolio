@@ -12,7 +12,7 @@ class Footer extends Component {
 		        <div className="container">
 		          <div className="footer-text">
 		            <div className="footer-copy">
-		              &copy; SPMitchell Designs 2020.
+		              &copy; SPMitchell Designs 2021.
 		            </div>
 		          </div>
 		          <div className="local-scroll">

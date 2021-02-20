@@ -56,6 +56,10 @@ class About extends Component {
                   <ReactTooltip id="React" type="dark" place="bottom">
                     <span>React</span>
                   </ReactTooltip>
+                <i data-tip data-for="Vue" className="devicon-vuejs-plain devicon" />
+                  <ReactTooltip id="Vue" type="dark" place="bottom">
+                    <span>Vue</span>
+                  </ReactTooltip>
   	            <i data-tip data-for="Angular" className="devicon-angularjs-plain devicon" />
                   <ReactTooltip id="Angular" type="dark" place="bottom">
                     <span>Angular</span>

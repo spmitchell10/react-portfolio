@@ -31,7 +31,7 @@ class Contact extends Component {
                     <div className="ci-title font-alt">Phone</div>
                     <div className="ci-text">
                       {" "}
-                      <a href="tel:6154151709">270-401-6558</a>
+                      <a href="tel:6154151709">502-715-3938</a>
                     </div>
                   </div>
                   

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
-import jamSesh from "../images/jamsesh.png";
-import jtFit from "../images/jtfit.png";
-import blog from "../images/blog.png";
+import jamSesh from "../images/openLP.png";
+import jtFit from "../images/aggiebound.png";
+import blog from "../images/bluelava.png";
 
 class Portfolio extends Component {
 	render () {
@@ -20,7 +20,7 @@ class Portfolio extends Component {
 		            width: "100%",
 		            backgroundSize: "70%",
 		            backgroundPosition: "center",
-		            backgroundColor: "#F26C59",
+		            backgroundColor: "#700000",
 		            display: "flex",
 		            justifyContent: "flex-end",
 		            alignItems: "center"
@@ -55,27 +55,19 @@ class Portfolio extends Component {
 		            }}
 		          >
 		            <h3 className="work-title" style={{ color: "#fff" }}>
-		              JTFitness
+		              Aggiebound
 		            </h3>
 		            <div className="work-descr" style={{ color: "#fff" }}>
-		              Built with Angular, Node, and Bootstrap.
+		              Built with KenticoCMS, Javascript, SASS, Bootstrap.
 		            </div>
 		            <div className="workButtons">
 		              <a
-		                href="http://www.jackietfitness.com/"
+		                href="https://www.aggiebound.tamu.edu/"
 		                target="_blank"
 		                rel="noopener noreferrer"
 		                className="btn btn-mod btn-medium"
 		              >
 		                Live
-		              </a>
-		              <a
-		                href="https://github.com/spmitchell10/JackieFitnessWebsite"
-		                target="_blank"
-		                rel="noopener noreferrer"
-		                className="btn btn-mod btn-medium"
-		              >
-		                Code
 		              </a>
 		            </div>
 		          </div>
@@ -92,7 +84,7 @@ class Portfolio extends Component {
 		            width: "100%",
 		            backgroundSize: "70%",
 		            backgroundPosition: "center",
-		            backgroundColor: "#1B839D",
+		            backgroundColor: "#59b1d8",
 		            display: "flex",
 		            justifyContent: "flex-end",
 		            alignItems: "center"
@@ -112,20 +104,20 @@ class Portfolio extends Component {
 		            }}
 		          >
 		            <h3 className="work-title" style={{ color: "#fff" }}>
-		              Anchored Thoughts
+		              BlueLava
 		            </h3>
 		            <div className="work-descr" style={{ color: "#fff" }}>
-		              Built with JavaScript, Angular, MongoDB, and Bootstrap.
+		              Built with ReactJS, SiteleafCMS, and SASS.
 		            </div>
 		            <div className="workButtons">
 		              
 		              <a
-		                href="https://github.com/spmitchell10/Week-9---Angular-Blog"
+		                href="https://www.blue-lava.net/"
 		                target="_blank"
 		                rel="noopener noreferrer"
 		                className="btn btn-mod btn-medium"
 		              >
-		                Code
+		                Live
 		              </a>
 		            </div>
 		          </div>
@@ -155,7 +147,7 @@ class Portfolio extends Component {
 		            width: "100%",
 		            backgroundSize: "70%",
 		            backgroundPosition: "center",
-		            backgroundColor: "#693166",
+		            backgroundColor: "#507cbd",
 		            display: "flex",
 		            justifyContent: "flex-end",
 		            alignItems: "center"
@@ -186,20 +178,20 @@ class Portfolio extends Component {
 		            }}
 		          >
 		            <h3 className="work-title" style={{ color: "#fff" }}>
-		              JamSesh
+		              #OpenLP
 		            </h3>
 		            <div className="work-descr" style={{ color: "#fff" }}>
-		              Built with JavaScript, jQuery, and Bootstrap.
+		              Built with WordPressCSM, PHP, Javascript and SASS.
 		            </div>
 		            <div className="workButtons">
 		              
 		              <a
-		                href="https://github.com/spmitchell10/Week-4---Tuesday"
+		                href="https://openlp.sapphireventures.com/"
 		                target="_blank"
 		                rel="noopener noreferrer"
 		                className="btn btn-mod btn-medium"
 		              >
-		                Code
+		                Live
 		              </a>
 		            </div>
 		          </div>
