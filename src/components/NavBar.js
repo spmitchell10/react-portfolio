@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import resume from "../documents/stephen_mitchell_resume.pdf";
+import resume from "../documents/Resume_2021.pdf";
 import Headroom from "react-headroom";
 import { stack as Menu } from "react-burger-menu";
 import Scroll from "react-scroll";
