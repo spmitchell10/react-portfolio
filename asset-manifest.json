@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.1b168bff.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.e7a0d47f.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.e7a0d47f.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.e9058dbb.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.e9058dbb.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
     "static/js/2.70cdbb2b.chunk.js": "/react-portfolio/static/js/2.70cdbb2b.chunk.js",
     "static/js/2.70cdbb2b.chunk.js.map": "/react-portfolio/static/js/2.70cdbb2b.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.8134177adf19ae0fef69399013e581ca.js": "/react-portfolio/precache-manifest.8134177adf19ae0fef69399013e581ca.js",
+    "precache-manifest.3c74a5c2a92c615adb7f3c68cbb15e34.js": "/react-portfolio/precache-manifest.3c74a5c2a92c615adb7f3c68cbb15e34.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/main.1b168bff.chunk.css.map": "/react-portfolio/static/css/main.1b168bff.chunk.css.map",
     "static/js/2.70cdbb2b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.70cdbb2b.chunk.js.LICENSE.txt",
-    "static/media/blog.png": "/react-portfolio/static/media/blog.d7f11a67.png",
-    "static/media/jamsesh.png": "/react-portfolio/static/media/jamsesh.d117e214.png",
-    "static/media/jtfit.png": "/react-portfolio/static/media/jtfit.b6a55955.png",
+    "static/media/aggiebound.png": "/react-portfolio/static/media/aggiebound.1b01c10a.png",
+    "static/media/bluelava.png": "/react-portfolio/static/media/bluelava.7f6e0e36.png",
     "static/media/main_IMG.jpeg": "/react-portfolio/static/media/main_IMG.3b75e281.jpeg",
+    "static/media/openLP.png": "/react-portfolio/static/media/openLP.d0e4a70b.png",
     "static/media/stephen_mitchell_resume.pdf": "/react-portfolio/static/media/stephen_mitchell_resume.98ed68fe.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
     "static/js/2.70cdbb2b.chunk.js",
     "static/css/main.1b168bff.chunk.css",
-    "static/js/main.e7a0d47f.chunk.js"
+    "static/js/main.e9058dbb.chunk.js"
   ]
 }
