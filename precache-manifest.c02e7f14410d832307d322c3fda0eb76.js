@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9b7d61006745ad4a84c7d0db0e731ae",
+    "revision": "ec1ca7da041c712841a6b713767279a4",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "ca5fcea6a1d10d499dc0",
+    "revision": "25530e27264c8e8f7aad",
     "url": "/react-portfolio/static/css/main.1b168bff.chunk.css"
   },
   {
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.70cdbb2b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca5fcea6a1d10d499dc0",
-    "url": "/react-portfolio/static/js/main.e9058dbb.chunk.js"
+    "revision": "25530e27264c8e8f7aad",
+    "url": "/react-portfolio/static/js/main.666d283d.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
     "url": "/react-portfolio/static/js/runtime-main.213b1880.js"
+  },
+  {
+    "revision": "a81588036ebef75a2ff067ec0b1af625",
+    "url": "/react-portfolio/static/media/Resume_2021.a8158803.pdf"
   },
   {
     "revision": "1b01c10ac4958930d0694f7d0221ceb4",
@@ -38,9 +42,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d0e4a70bc939ceb5d16d4f32a01f4227",
     "url": "/react-portfolio/static/media/openLP.d0e4a70b.png"
-  },
-  {
-    "revision": "98ed68feabf373a77ff0d08ee2cafdf3",
-    "url": "/react-portfolio/static/media/stephen_mitchell_resume.98ed68fe.pdf"
   }
 ]);
